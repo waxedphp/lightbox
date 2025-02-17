@@ -1,4 +1,6 @@
-# Boilerplate
+# Lightbox
+
+The original lightbox script by Lokesh Dhakar
 
 MIT license
 
@@ -7,9 +9,9 @@ MIT license
 
 ```
 
-<div class="waxed-boilerplate"
-data-name="payload1"
-></div>
+<div class="grid waxed-lightbox" data-name="data.lightbox" >
+
+</div>
 
 
 ```
@@ -19,11 +21,15 @@ data-name="payload1"
 ```
 
 $this->waxed->display([
-  'payload' =>
-  [
-    'value' => null
-  ],
-], 'template');
+        'data' => [
+          'lightbox' => [
+            'images' => [
+              ['url'=>'/img/tanier01.png','title'=>'Tanier!'],
+              ['url' => '/img/tanier02.png','title'=>'Tanier a kravy!'],
+            ]
+          ]
+        ],
+      ], 'template');
 
 
 ```

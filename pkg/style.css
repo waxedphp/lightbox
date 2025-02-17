@@ -1,4 +1,32 @@
 
 .lightboxOverlay {
   opacity: 0.9 !important;
+  outline: none !important;
+}
+
+.lb-cancel, .lb-cancel:focus {
+  /* background: url(/img/waxed/loading.gif) no-repeat !important; */
+  border:0 !important;
+  outline: none !important;
+}
+
+.lb-nav a.lb-prev, .lb-nav a.lb-prev:focus {
+  /* background: url(/img/waxed/prev.png) left 48% no-repeat !important; */
+  border:0 !important;
+  outline: none !important;
+}
+.lb-nav a.lb-next, .lb-nav a.lb-next:focus {
+  /* background: url(/img/waxed/next.png) right 48% no-repeat !important;*/
+  border:0 !important;
+  outline: none !important;
+}
+.lb-data .lb-close, .lb-data .lb-close:focus {
+  /*background: url(/img/waxed/close.png) top right no-repeat !important;*/
+  border:0 !important;
+  outline: none !important;
+}
+
+.lightbox a:focus {
+  outline: none !important;
+  border:0 !important;
 }

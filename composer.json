@@ -1,8 +1,9 @@
 {
     "name": "waxedphp/lightbox",
-    "description": "Advanced views with mustache.",
+    "description": "The original lightbox script - within WaxedPHP environment.",
     "type": "library",
     "license": "MIT",
+    "version": "0.2.7",
     "autoload": {
         "psr-4": {
             "Waxedphp\\Lightbox\\": "src"
@@ -14,6 +15,6 @@
         }
     ],
     "require": {
-      "waxedphp/waxedphp":"^0.2.12"
+      "waxedphp/waxedphp":"^0.2.7"
     }
 }

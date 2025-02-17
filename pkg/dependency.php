@@ -3,11 +3,11 @@
 return [
   'js' => [
     NODE . '/lightbox2/dist/js/lightbox.js',
-    '/lightbox/plugin.js',
+    $PATH . '/plugin.js',
   ],
   'css' => [
 
     NODE . '/lightbox2/dist/css/lightbox.css',
-    '/lightbox/style.css',
+    $PATH . '/style.css',
   ],
 ];

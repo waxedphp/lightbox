@@ -26,12 +26,12 @@
       },
 
       this.setRecord = function(RECORD){
-        console.log(RECORD);
+        //console.log(RECORD);
         if (typeof that.dd.name == 'undefined') return;
         var rec = that.pluggable.getvar(that.dd.name, RECORD);
         if (typeof rec != 'object') { return; };
         if (typeof rec.images == 'object') {
-          console.log(rec.images);
+          //console.log(rec.images);
           this.loadImages(rec.images);
         };
         if (typeof rec.config == 'object') { rec = rec.config; };

@@ -4,18 +4,7 @@ The original lightbox script by Lokesh Dhakar
 
 MIT license
 
-
-### HTML:
-
-```
-
-<div class="grid waxed-lightbox" data-name="data.lightbox" >
-
-</div>
-
-
-```
-
+---
 ### PHP:
 
 ```
@@ -33,5 +22,17 @@ $this->waxed->display([
 
 
 ```
+---
+### HTML:
 
+```
+
+<div class="grid waxed-lightbox" data-name="data.lightbox" >
+
+</div>
+
+
+```
+---
+---
 
